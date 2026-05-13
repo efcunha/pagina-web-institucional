@@ -2,6 +2,12 @@
 
 Documentação das mudanças realizadas no site institucional para refletir que **Restaurante Supabase** é agora um projeto open source com MIT License.
 
+## 📌 Crédito obrigatório ao projeto original
+
+- **Projeto original:** [restaurante-supabase](https://github.com/efcunha/restaurante-supabase)
+- **Autor original:** `efcunha` (GitHub)
+- **Regra de manutenção:** toda atualização, correção ou melhoria executada neste fork deve ser replicada no projeto original sempre que aplicável, para manter o upstream sincronizado.
+
 ---
 
 ## 📋 Mudanças Implementadas

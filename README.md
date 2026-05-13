@@ -2,6 +2,11 @@
 
 Site institucional da **Machado & Cunha Soft House** — software house brasileira especializada em sistemas de gestão para restaurantes.
 
+## Open Source Notice
+
+Este site é uma adaptação open source baseada no projeto original [restaurante-supabase](https://github.com/efcunha/restaurante-supabase), de autoria de `efcunha`.
+As atualizações e correções feitas neste fork devem ser refletidas no projeto original sempre que aplicável.
+
 ---
 
 ## Tech Stack
