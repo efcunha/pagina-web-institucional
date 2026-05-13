@@ -45,7 +45,7 @@ export function Hero() {
         <motion.div custom={0} variants={itemVariants} className="mb-6 md:mb-8">
           <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent-subtle-strong border border-strong text-accent text-sm font-medium">
             <span className="w-1.5 h-1.5 rounded-full bg-accent animate-pulse" />
-            Plataforma completa para restaurantes
+            Código aberto • MIT License • 100% customizável
           </span>
         </motion.div>
 
@@ -55,9 +55,9 @@ export function Hero() {
           variants={itemVariants}
           className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-foreground leading-tight tracking-tight mb-4 md:mb-6"
         >
-          Do balcão à cozinha,
+          Restaurante Supabase
           <br />
-          <span className="text-accent">tudo sob controle.</span>
+          <span className="text-accent">Open Source & Gratuito</span>
         </motion.h1>
 
         {/* Subtitle */}
@@ -66,9 +66,8 @@ export function Hero() {
           variants={itemVariants}
           className="text-lg sm:text-xl text-foreground-muted max-w-2xl mx-auto mb-8 md:mb-10 leading-relaxed"
         >
-          Sistema PDV/POS integrado com app mobile, interface web e backend SaaS. Operação unificada
-          para balcão, mesa, delivery e cozinha — com auditoria financeira completa e conformidade
-          LGPD.
+          Uma plataforma completa para gerenciar seu restaurante: app mobile, web, delivery,
+          cozinha e financeiro. MIT License. Audite o código, customize conforme necessário.
         </motion.p>
 
         {/* CTAs */}
@@ -78,10 +77,10 @@ export function Hero() {
           className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16 md:mb-20"
         >
           <Button variant="primary" size="lg" as="a" href="#contato">
-            Solicitar demonstração
+            Começar Agora
           </Button>
           <Button variant="outline" size="lg" as="a" href="#plano">
-            Conhecer o plano
+            Saiba Mais
           </Button>
         </motion.div>
 

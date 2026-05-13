@@ -2,7 +2,9 @@ import { Header } from '@/components/Header'
 import { Hero } from '@/components/Hero'
 import { AboutProduct } from '@/components/AboutProduct'
 import { Features } from '@/components/Features'
-import { Pricing } from '@/components/Pricing'
+import { OpenSourceSection } from '@/components/OpenSourceSection'
+import { SupportPlans } from '@/components/SupportPlans'
+import { QuoteForm } from '@/components/QuoteForm'
 import { HowItWorks } from '@/components/HowItWorks'
 import { Testimonials } from '@/components/Testimonials'
 import { Security } from '@/components/Security'
@@ -18,7 +20,9 @@ export default function Home() {
         <Hero />
         <AboutProduct />
         <Features />
-        <Pricing />
+        <OpenSourceSection />
+        <SupportPlans />
+        <QuoteForm />
         <HowItWorks />
         <Testimonials />
         <Security />
