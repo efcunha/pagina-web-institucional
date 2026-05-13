@@ -21,11 +21,22 @@ next-env.d.ts
 # ============================================
 .env
 .env.local
+.env.*.local
 .env.development.local
 .env.test.local
 .env.production.local
+.env.production.local.example
 *.pem
 *.key
+*.crt
+*.cert
+*.pfx
+*.p12
+.aws/
+.railway/
+.railway.json
+railway-config.json
+.rwebkitcache/
 
 # ============================================
 # PACKAGE MANAGERS
@@ -47,13 +58,33 @@ lerna-debug.log*
 # OS / EDITORS
 # ============================================
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
 *.swp
 *.swo
 *~
 .idea/
-.vscode/
+.idea/**
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json.template
+!.vscode/settings.json.template
 *.sublime-*
+*.sublime-workspace
+.sublime-project
+*.iml
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+.python-version
+.ruby-version
+.nvmrc
 
 # ============================================
 # TESTING / COVERAGE
@@ -75,7 +106,10 @@ test-results/
 # ============================================
 .turbo/
 .cache/
+.eslintcache
+.stylelintcache
 dist/
+build-cache/
 
 # ============================================
 # TYPESCRIPT / JEST
@@ -91,3 +125,74 @@ android-latest.apk
 android-latest.aab
 ios-latest.ipa
 ios-latest.app.tar.gz
+
+# ============================================
+# CHROME DEVTOOLS / DEBUGGING
+# ============================================
+.devtools/
+*.devtools
+*.trace
+*.heapsnapshot
+
+# ============================================
+# SYSTEM & TEMPORARY FILES
+# ============================================
+Thumbs.db
+.TemporaryItems
+.VolumeIcon.icns
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.#*
+#*#
+*.bak
+*.backup
+*.~
+
+# ============================================
+# CREDENTIALS & CERTIFICATES (Additional)
+# ============================================
+**/.netrc
+**/.ssh/
+**/secrets/
+**/private/
+**/*-credentials.json
+**/*-key.json
+**/firebase-config.json
+**/supabase-config.json
+**/.credentials
+**/credentials.json
+**/private.key
+**/public.key
+
+# ============================================
+# DATABASE & BACKUP FILES
+# ============================================
+*.db
+*.sqlite
+*.sqlite3
+*.backup
+*.sql
+database-backup/
+db-backup/
+*.dump
+
+# ============================================
+# DOCKER & CONTAINER FILES (if used)
+# ============================================
+.dockerignore
+docker-compose.override.yml
+.env.docker
+
+# ============================================
+# NPM SCRIPTS OUTPUT
+# ============================================
+scripts/**/*.log
+scripts/**/*.tmp
