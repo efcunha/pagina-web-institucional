@@ -1,0 +1,22 @@
+# Código Owners — Pagina Web Institucional
+
+# Padrão geral — todos os PRs requerem review de maintainers
+* @efcunha
+
+# Design System & Componentes
+/src/components/ui/ @efcunha
+/src/styles/ @efcunha
+
+# Configurações
+/next.config.js @efcunha
+/tailwind.config.js @efcunha
+/tsconfig.json @efcunha
+/.eslintrc.json @efcunha
+
+# Scripts & Deploy
+/scripts/ @efcunha
+/.github/workflows/ @efcunha
+/railway.json @efcunha
+
+# CI/CD
+/.github/ @efcunha

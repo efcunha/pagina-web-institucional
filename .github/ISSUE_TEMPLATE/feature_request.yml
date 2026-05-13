@@ -1,0 +1,41 @@
+---
+name: ✨ Feature Request
+description: Propose a new feature
+title: "[FEATURE] "
+labels: ["enhancement", "triage"]
+---
+
+## ✨ Descrição da Feature
+
+<!-- Descreva a feature que gostaria de adicionar -->
+
+## 🎯 Objetivo
+
+<!-- Qual problema ela resolve ou qual valor agrega? -->
+
+## 💡 Solução Proposta
+
+<!-- Como você imagina a solução? -->
+
+## 🤔 Alternativas Consideradas
+
+<!-- Outras abordagens que poderiam ser úteis -->
+
+## 📋 Contexto Adicional
+
+<!-- Mockups, referências, casos de uso específicos -->
+
+## 🔗 Impacto
+
+- [ ] Frontend (UI/UX)
+- [ ] Performance
+- [ ] Acessibilidade
+- [ ] Design System
+- [ ] Deploy/CI-CD
+
+---
+
+**Checklist:**
+- [ ] Feature alinha com a visão do projeto
+- [ ] Há contexto suficiente para implementação
+- [ ] Impacto foi avaliado

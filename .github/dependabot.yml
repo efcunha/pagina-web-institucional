@@ -1,0 +1,41 @@
+version: 2
+updates:
+  # Atualizações de dependências npm
+  - package-ecosystem: 'npm'
+    directory: '/'
+    schedule:
+      interval: 'weekly'
+      day: 'monday'
+      time: '09:00'
+    open-pull-requests-limit: 10
+    reviewers:
+      - 'efcunha'
+    assignees:
+      - 'efcunha'
+    labels:
+      - 'dependencies'
+      - 'npm'
+    commit-message:
+      prefix: 'chore'
+      include: 'scope'
+    pull-request-branch-name:
+      separator: '/'
+    allow:
+      - dependency-type: 'direct'
+      - dependency-type: 'indirect'
+    rebase-strategy: 'auto'
+    versioning-strategy: 'auto'
+    allow-multiple-updates: true
+
+  # Atualizações GitHub Actions
+  - package-ecosystem: 'github-actions'
+    directory: '/'
+    schedule:
+      interval: 'weekly'
+      day: 'monday'
+      time: '09:00'
+    reviewers:
+      - 'efcunha'
+    labels:
+      - 'ci/cd'
+      - 'github-actions'

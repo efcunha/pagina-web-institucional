@@ -1,0 +1,50 @@
+---
+name: 🐛 Bug Report
+description: Report a bug or issue
+title: "[BUG] "
+labels: ["bug", "triage"]
+---
+
+## 🐛 Descrição do Bug
+
+<!-- Descreva o comportamento inesperado -->
+
+## 🔍 Como Reproduzir
+
+<!-- Passos para reproduzir o comportamento -->
+
+1. Acesse...
+2. Clique em...
+3. Observe...
+
+## ✅ Comportamento Esperado
+
+<!-- Descreva qual deveria ser o comportamento correto -->
+
+## 🖥️ Ambiente
+
+- **OS:** Windows / macOS / Linux
+- **Browser:** Chrome / Firefox / Safari / Edge
+- **Node.js version:** (ex: 20.0.0)
+- **Next.js version:** (ex: 14.0.0)
+
+## 📸 Screenshots
+
+<!-- Se aplicável, adicione screenshots ou GIFs -->
+
+## 📝 Logs & Erros
+
+```
+Colar logs/erros relevantes aqui
+```
+
+## 🔗 Contexto Adicional
+
+<!-- Informações que ajudem a entender o problema -->
+
+---
+
+**Checklist:**
+- [ ] Testei em versão mais recente
+- [ ] Problema não existe em `main`
+- [ ] Problema é reproduzível de forma consistente
