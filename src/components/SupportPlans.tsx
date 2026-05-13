@@ -50,7 +50,7 @@ const supportPlans = [
 
 export function SupportPlans() {
   return (
-    <Section id="suporte" className="bg-surface/50">
+    <Section id="plano" className="bg-surface/50">
       <Container>
         <motion.div variants={{ visible: { transition: { staggerChildren: 0.1 } } }}>
           {/* Section Header */}

@@ -65,7 +65,7 @@ export default function PrivacyPage() {
               <ul className="list-disc pl-6 space-y-1">
                 <li>Prestação dos serviços contratados</li>
                 <li>Comunicação com o usuário (suporte, atualizações)</li>
-                <li>Cobrança e gestão de assinatura</li>
+                <li>Gestão de contratos de suporte e serviços adicionais</li>
                 <li>Melhoria contínua da plataforma</li>
                 <li>Cumprimento de obrigações legais</li>
               </ul>

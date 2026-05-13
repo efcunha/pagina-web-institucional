@@ -5,12 +5,12 @@ import { Section, Accordion, Badge } from '@/components/ui'
 
 const faqItems = [
   {
-    question: 'O plano cobre mais de um restaurante?',
+    question: 'O software inclui cobrança mensal?',
     answer: (
       <p>
-        O plano de R$ 149/mês cobre <strong>1 restaurante</strong>. Se você opera
-        múltiplas unidades, cada uma terá seu próprio cadastro e plano. Entre em
-        contato para condições especiais de multi-unidades.
+        Não. O código é open source e gratuito. O que oferecemos são serviços de
+        implementação, personalização e suporte sob orçamento, de acordo com a sua
+        necessidade.
       </p>
     ),
   },
@@ -25,12 +25,12 @@ const faqItems = [
     ),
   },
   {
-    question: 'Como é feita a cobrança mensal?',
+    question: 'Como funciona a contratação de suporte?',
     answer: (
       <p>
-        A cobrança é via Mercado Pago, de forma recorrente. Você pode pagar com
-        cartão de crédito, boleto ou Pix. O cancelamento pode ser feito a qualquer
-        momento, sem multa ou fidelidade.
+        Não existe assinatura mensal obrigatória para usar o software. As entregas de
+        implantação, suporte contínuo e customizações são combinadas diretamente com o
+        time responsável.
       </p>
     ),
   },

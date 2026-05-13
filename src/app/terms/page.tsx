@@ -51,17 +51,13 @@ export default function TermsPage() {
 
             <section>
               <h2 className="font-display text-xl font-semibold text-foreground mt-8 mb-3">
-                3. Plano e Cobrança
+                3. Uso do Software e Serviços
               </h2>
               <p>
-                O plano único tem o valor de <strong className="text-foreground">R$ 149/mês</strong>{' '}
-                por restaurante cadastrado. A cobrança é recorrente via Mercado Pago, com
-                opções de cartão de crédito, boleto ou Pix.
-              </p>
-              <p>
-                <strong className="text-foreground">Período de teste:</strong> 30 dias grátis
-                para avaliação. <strong className="text-foreground">Sem fidelidade:</strong>{' '}
-                o cancelamento pode ser feito a qualquer momento, sem multa.
+                O software é distribuído em modelo open source e pode ser utilizado sem
+                cobrança de mensalidade de licença. Serviços de implantação, suporte,
+                evolução e customização podem ser contratados separadamente, conforme
+                escopo e necessidade do projeto.
               </p>
             </section>
 
@@ -119,8 +115,9 @@ export default function TermsPage() {
               </h2>
               <p>
                 A Empresa pode suspender ou encerrar o acesso do usuário que violar
-                estes Termos, sem prejuízo das medidas legais cabíveis. O usuário pode
-                cancelar sua assinatura a qualquer momento.
+                estes Termos, sem prejuízo das medidas legais cabíveis. Quando houver
+                contrato de suporte ou serviços adicionais, sua rescisão seguirá as
+                condições acordadas entre as partes.
               </p>
             </section>
 

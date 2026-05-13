@@ -115,7 +115,7 @@ src/
 | Hero | `#hero` | Tagline, CTAs, product ecosystem cards |
 | Produto | `#produto` | Ecossistema integrado + diferenciais |
 | Funcionalidades | `#funcionalidades` | Feature grid com 9 items |
-| Plano | `#plano` | Plano único — R$ 149/mês |
+| Plano | `#plano` | Implementação e suporte sob orçamento |
 | Como funciona | `#como-funciona` | 4-step onboarding timeline |
 | Depoimentos | `#depoimentos` | Tipos de estabelecimento (placeholder) |
 | Segurança | `#seguranca` | LGPD, RLS, OWASP compliance |
